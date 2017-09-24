@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.site-title {
+  color: black;
+}
+
+.overflow-tags {
+  margin-top: 0.6em;
+  margin-left: 2.4em;
+}
+
+h4 {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  margin-top: -4px;
+  cursor: pointer;
+}
+
+nav {
+  z-index: 1000;
+/*   background-color: pink; */
+/*   font-weight: bold; */
+  font-size: 0.9em;
+  float: right;
+}
+
+.modal-form {
+  display: block;
+/*   position: absolute; */
+  background-color: transparent;
+  padding: 0;
+/*   margin-top: em; */
+}
+
+.modal-form input {
+  border-color: black;
+  margin-top: 1em;
+}
+
+.list-item {
+  min-height: 4em;
+  padding-top: 1em;
+}
+/* .list-item:first-child {
+  margin-top: 3em;
+} */
+
+.foodstuff-title {
+  
+  font-size: 1.2em;
+  margin-right: 1em;
+}
+
+.foodstuff-title > a:first-child {
+  margin-right: 0.3em;
+}
+
+.nav-link:first-child {
+  margin-left: 0px;
+}
+
+.nav-link {
+  margin-left: 1em;
+  text-decoration: none;
+  color: gray;
+}
+.nav-link:hover {
+  color: black;
+  z-index: 1000000;
+}
+
+.savor {
+  background: url(https://cdn.glitch.com/6d516a70-a186-469f-8bca-b3edbf89ca5a%2Fsavor.svg?1506207850890) no-repeat top left;
+  background-size: contain;
+  cursor: pointer;
+  height: 28px;
+  width: 28px;
+  color: transparent;
+  padding: 0;
+  margin: 0;
+/*   overflow: hidden; */
+  border: none;
+  top: -12px;
+  position: relative;
+/*   background-color: pink; */
+}
+
+.savor-count {
+  position: relative;
+  top: -12px;
+/*   left: 10px; */
+  width: 28px;
+  text-align: center;
+  display: block;
+  font-size: 0.75em;
+  color: gray;
+/*   font-weight: bold; */
+}
+
+.foodstuff-title {
+  margin-left: 2em;
+}
+
+.reset-savors:hover {
+/*   left: -44px; */
+/*   color: white; */
+  background-color: pink;
+}
+.savor-container {
+  position: absolute;
+/*   position: relative; */
+  max-width: 4em;
+/*   background-color: orange; */
+}
+.reset-savors {
+  display: inline-block;
+  top: 10px;
+  position: absolute;
+  color: transparent;
+  border-radius: 10px;
+  width: 16px;
+  height: 16px;
+  border: none;
+  left: -19px;
+  background-size: contain;
+  background: url(https://cdn.glitch.com/6d516a70-a186-469f-8bca-b3edbf89ca5a%2Fcross.svg?1506209582593) no-repeat top left;
+  background-color: pink;
+}
+
+.reset-savors:hover {
+  background-color: #FF3E70;
+}
+
+button.savor:hover {
+  outline: none;
+  background-color: transparent;
+}
+
+button.savor:active {
+  background-color: transparent;
+  transform: scale(1.1);
+}
+
+.tags > button {
+  background-color: orange;
+}
+
+.new-tag {
+  display: inline;
+  width: 300px;
+  background-color: rgba(0,0,0,0);
+  margin-left: 0;
+  padding: 2px;
+}
+
+.new-tag > input {
+  display: inline;
+}
+
+.new-tag > input[type="text"] {
+  width: 100px;
+}
+.new-tag > input[type="submit"] {
+  width: 30px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+/*   font-family: helvetica, arial, sans-serif; */
+  margin: 2em;
+}
+
+h1 {
+  font-weight: bold;
+  color: pink;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+p {
+  max-width: 600px;
+}
+
+form {
+  margin-bottom: 25px;
+  padding: 15px;
+  background-color: cyan;
+  display: inline-block;
+  width: 100%;
+  max-width: 340px;
+  border-radius: 3px;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+button {
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: lightgrey;
+  border: 1px solid grey;
+/*   box-shadow: 2px 2px teal; */
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: yellow;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid lightgrey;
+}
+
+footer > a {
+  color: #BBBBBB;
+}
+
+.nicejob {
+  text-decoration: line-through;
+}

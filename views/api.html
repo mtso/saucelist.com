@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+  <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/superagent/3.6.0/superagent.min.js"></script>
+
+    <script>
+      superagent
+        .get('/api/foodstuff')
+        .then((data) => {
+          document.write('<pre>' + JSON.stringify(data.body, null, 2) + '</pre>')
+        })
+        .catch(console.warn)
+    </script>
+  </body>
+</html>
